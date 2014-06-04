@@ -1291,7 +1291,8 @@
                 
                 // Set navigation bar frame
                 CGRect navBarFrame = self.navigationController.navigationBar.frame;
-                navBarFrame.origin.y = statusBarHeight;
+#warning 珍爱Match项目，需要改动此处，应该是项目本身的问题。但是决定在此修改
+//                navBarFrame.origin.y = statusBarHeight;
                 self.navigationController.navigationBar.frame = navBarFrame;
                 
             }
